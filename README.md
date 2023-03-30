@@ -9,7 +9,7 @@ php artisan serve
 
 # Do required sendgrid setting in .env file
 ```bash
-     SENDGRID_API_KEY=<sendgrid_api_key>
+SENDGRID_API_KEY=<sendgrid_api_key>
 ```
 
 
