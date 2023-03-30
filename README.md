@@ -1,10 +1,14 @@
-◆ Clone project  
-     git clone https://github.com/thineisan/sendgrid-mail-test.git
+# sendgrid mailing
 
-◆ Install dependencies
-    composer install
+```bash
+git clone https://github.com/thineisan/sendgrid-mail-test.git
+cd sendgrid-mail-test
+composer install
+php artisan serve
+```
 
-◆ Do required sendgrid setting in .env file
+# Do required sendgrid setting in .env file
+```bash
      MAIL_MAILER=smtp
      # MAIL_DRIVER=smtp # for laravel < 7
      MAIL_HOST=smtp.sendgrid.net
@@ -16,11 +20,11 @@
      MAIL_FROM_ADDRESS=test@example.com
 
      SENDGRID_API_KEY=<sendgrid_api_key>
-
-◆ Run project
-　  php artisan serve
+```
 
 
-Create one controller file and one blade file
-   ○○ MailController.php
+#Create one controller file and one blade file
+```bash
+   ○○ MailController.php  
    ○○ mail.blade.php
+```
